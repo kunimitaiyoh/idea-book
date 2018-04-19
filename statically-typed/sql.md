@@ -1,0 +1,2 @@
+# SQL Table Type Generator
+
