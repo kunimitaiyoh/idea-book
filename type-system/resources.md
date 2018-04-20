@@ -25,7 +25,7 @@ then you can get them in Java code just like above, where `context` is a special
 
 ## Use Cases
 
-<em style="color: red">WORK IN PROGRESS!</em>
+<em>WORK IN PROGRESS!</em>
 
 - a single file to a single instance (e.g. SQL query file)
 - a single file to a collection (e.g. `string.xml` in Android)
