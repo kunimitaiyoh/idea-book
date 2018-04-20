@@ -9,7 +9,7 @@ Even though there are the same problem at dynamically-typed and it is not peculi
 
 *Android Plugin*, used for building Android projects solves such issue at a high level. In an Android project, for instance, texts which would be shown in the app are stored all in one piece into a file named`string.xml` like following:
 
-```xml:string.xml
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <resources>  
     <string name="hello">Hello World, MainActivity!</string>  
