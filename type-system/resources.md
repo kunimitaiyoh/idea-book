@@ -4,6 +4,9 @@ In *statically-typed* programming language, *compile* is required to make execut
 Nowadays, practically compiling is usually carried out through *build* process because it sometimes requires fetching depenencies or a certain converting.
 Statically-typed programming is better than dynamically-typed programming language at the point that various errors in your program would be detected by compilers' *type system*.
 
+How many developers have suffured from writing SQL queries with raw string into their code ever on Earth?
+Complicated texts like SQL queries should be written as a file instead of a string literal or a heredoc.
+
 However, there is an issue that in case that a program dependents other static resources (e.g. text files, images, etc.), it ended up to get them through files and then it could not benefit by type-system.
 Even though there are the same problem at dynamically-typed and it is not peculiar issue of statically-typed, it is unfortunate that the type-system could not be applied for various resources.
 
