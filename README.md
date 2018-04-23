@@ -11,5 +11,5 @@ I will write my ideas that I came up with daily into this book.
 
 ### Database
 
-- [Immutable-relational mapper](db/sql-irm.md)
+- [Immutable-relational mapper](db/sql-irm.md) (Japanese)
 - [Diffbase](db/diffbase.md)
