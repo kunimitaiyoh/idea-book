@@ -12,10 +12,10 @@ A simple relational database mapper for immutable objects.
 
 ## Features
 
-- **イミュータブル**の名称と**テーブル**の名称の関連づけ。
-- （イミュータブルの）フィールドの型と（テーブルの）列の型の関連づけ。
-- レコードからインスタンスへの自動的な変換。
-- シンプルなクエリやコマンドの、SQLなしでの提供。
-- SQL文 をリソースから自動的に取得する。
+- Associates a name of an *immutable class* and a name of a *table*.
+- Associates a property of an immutable class and a column of a table.
+- Converts a record into an immutable instance automatically, and conversely.
+- Provides some simple queries and commands without SQL.
+- Takes SQL statemens from your resources automatically.
 
-これらの機能を実際にどのように実現するのかは、ユーザーが指定できる。
+Additionally, users can specify how to realize these features if desired.
