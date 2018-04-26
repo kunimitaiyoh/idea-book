@@ -1,16 +1,16 @@
-# イミュータブルリレーショナルマッパー
+# Immutable Relational Mapper
 
-イミュータブルオブジェクトのためのシンプルなデータベースマッパーライブラリ
+A simple relational database mapper for immutable objects.
 
-## 方向性
+## Concepts
 
-- 覚えることが少ない。
-- 規約が少ない：このライブラリに合わせてほかのコードを変更させることを避ける。
-- 宣言的で洗練された表現：fluent、イミュータブル、`null`排除。
-- シンプルな機能。
-- さまざまな振る舞いをユーザーが変更でき、いろいろな状況に対応できる。
+- Less to learn.
+- Less conventions: to avoid changing original code to conform to this library.
+- Declarative and elegant representation: fluent, immutable, and `null`-eliminated.
+- Simple features.
+- Users can customize its various behaviors and it adapts to respective situations.
 
-## 機能
+## Features
 
 - **イミュータブル**の名称と**テーブル**の名称の関連づけ。
 - （イミュータブルの）フィールドの型と（テーブルの）列の型の関連づけ。
