@@ -26,7 +26,7 @@ Let `Dao[T, K]` is a DAO class where `T` is an *entity* type for this DAO, `K` i
 
 `Dao[T, K]` has following members (method and properties):
 
-- `insert(entity: T): Long` or - `insert(entity: T): T`
+- `insert(entity: T): Long` or `insert(entity: T): T`
 - `insertWithPrimaryKey(entity: T): Long`
 - `find(key: K): T?`
 - `delete(key: K): Int`
