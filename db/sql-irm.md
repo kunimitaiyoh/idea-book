@@ -19,3 +19,14 @@ A simple relational database mapper for immutable objects.
 - Takes SQL statemens from your resources automatically.
 
 Additionally, users can specify how to realize these features if desired.
+
+### Dao[T, K] class
+
+Let `Dao[T, K]` is a DAO class where `T` is an *entity* type for this DAO, `K` is the type of the entity's *primary key*.
+
+`Dao[T, K]` has following members (method and properties):
+
+- `insert(entity: T): Long` or - `insert(entity: T): T`
+- `insertWithPrimaryKey(entity: T): Long`
+- `find(key: K): T?`
+- `delete(key: K): Int`
